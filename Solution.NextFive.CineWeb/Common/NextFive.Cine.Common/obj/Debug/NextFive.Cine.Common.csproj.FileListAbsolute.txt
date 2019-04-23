@@ -1,0 +1,7 @@
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.Common\bin\Debug\NextFive.Cine.Common.dll
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.Common\bin\Debug\NextFive.Cine.Common.pdb
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.Common\bin\Debug\Newtonsoft.Json.dll
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.Common\obj\Debug\NextFive.Cine.Common.dll
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.Common\obj\Debug\NextFive.Cine.Common.pdb
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.Common\obj\Debug\NextFive.Cine.Common.csprojResolveAssemblyReference.cache
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.Common\bin\Debug\Newtonsoft.Json.xml

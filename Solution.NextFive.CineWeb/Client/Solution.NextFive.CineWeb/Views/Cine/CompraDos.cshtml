@@ -1,0 +1,374 @@
+﻿
+@{
+    ViewBag.Title = "Comprar";
+}
+
+<head>
+    <meta charset="utf-8" />
+
+    <link href="~/Content/materialize.min.css" rel="stylesheet" />
+    <link href="~/Content/materializeDisen.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="~/Scripts/materialize.js"></script>
+    <script src="~/Scripts/materialize.min.js"></script>
+    <script src="~/Scripts/prism.js"></script>
+    <style>
+        .btn.tooltipped {
+            background-color: #323232;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="row">
+        <div class="card">
+            <div class="card-image  waves-block waves-light">
+                <img class="activator" src="../Content/img/captain-marvel-movie-2019-4k-cl.jpg">
+            </div>
+            <div class="card-content">
+                <span class="card-title grey-text text-darken-4">Capitana Marvel</span>
+                <p>La historia sigue a Carol Danvers mientras ella se convierte en uno de los héroes más poderosos del universo cuando la Tierra se encuentre atrapada en medio de una guerra galáctica entre dos razas alienígenas. Situada en los años 90, Captain Marvel es una historia nueva de un período de tiempo nunca antes visto en la historia del Universo Cinematográfico de Marvel.</p>
+            </div>
+            <div class="card-tabs">
+                <ul class="tabs tabs-fixed-width blue-grey lighten-2">
+                    <li id="liHorario" class="tab"><a class="active" style="color:aliceblue" href="#divHorario" id="tabHorario">Seleccione Horario</a></li>
+                    <li id="liButaca" class="tab disabled"><a href="#divButaca" style="color:aliceblue" id="tabButaca">Seleccione Butaca</a></li>
+                    <li id="liPago" class="tab disabled"><a href="#divPago" style="color:aliceblue" id="tabPago">Método de Pago</a></li>
+                </ul>
+            </div>
+            <div class="card-content blue-grey lighten-2">
+                <div id="divHorario">
+                    <button class="waves-light btn" onclick="SeleccionarHorario(id);" value="12:00 pm" id="btnUno"><i class="material-icons right" id="botonUno">event_seat</i>12:00 pm</button>
+                    <button class="waves-light btn" onclick="SeleccionarHorario(id);" value="3:00 pm" id="btnDos"><i class="material-icons right" id="botonDos">event_seat</i>3:00 pm</button>
+                    <button class="waves-light btn" onclick="SeleccionarHorario(id);" value="7:00 pm" id="btnTres"><i class="material-icons right" id="botonTres">event_seat</i>7:00 pm</button>
+                </div>
+                <div id="divButaca">
+                    <div class="row">
+                        <div class="col s0 m0">
+                            <h6>A</h6>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="A1" style="width: 30px;height: 30px;" id="btnA1" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="A2" style="width: 30px;height: 30px;" id="btnA2" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="A3" style="width: 30px;height: 30px;" id="btnA3" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="A4" style="width: 30px;height: 30px;" id="btnA4" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="A5" style="width: 30px;height: 30px;" id="btnA5" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="A6" style="width: 30px;height: 30px;" id="btnA6" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="A7" style="width: 30px;height: 30px;" id="btnA7" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="A8" style="width: 30px;height: 30px;" id="btnA8" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="A9" style="width: 30px;height: 30px;" id="btnA9" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="A10" style="width: 30px;height: 30px;" id="btnA10" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s0 m0">
+                            <h6>B</h6>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="B1" style="width: 30px;height: 30px;" id="btnB1" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="B2" style="width: 30px;height: 30px;" id="btnB2" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="B3" style="width: 30px;height: 30px;" id="btnB3" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="B4" style="width: 30px;height: 30px;" id="btnB4" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="B5" style="width: 30px;height: 30px;" id="btnB5" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="B6" style="width: 30px;height: 30px;" id="btnB6" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="B7" style="width: 30px;height: 30px;" id="btnB7" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="B8" style="width: 30px;height: 30px;" id="btnB8" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s0 m0">
+                            <h6>C</h6>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="C1" style="width: 30px;height: 30px;" id="btnC1" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="C2" style="width: 30px;height: 30px;" id="btnC2" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="C3" style="width: 30px;height: 30px;" id="btnC3" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="C4" style="width: 30px;height: 30px;" id="btnC4" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="C5" style="width: 30px;height: 30px;" id="btnC5" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="C6" style="width: 30px;height: 30px;" id="btnC6" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="C7" style="width: 30px;height: 30px;" id="btnC7" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="C8" style="width: 30px;height: 30px;" id="btnC8" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                        <div class="col s0 m0">
+                            <button class="btn tooltipped btn-floating btn-large grey" data-position="top" data-delay="50" data-tooltip="C9" style="width: 30px;height: 30px;" id="btnC9" onclick="funcionBotonesSala(id);"></button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <a class="waves-light btn" id="btnPagar" onclick="Pagar();"><i class="material-icons right">payment</i>Pagar</a>
+                    </div>
+                </div>
+                <div id="divPago">
+                    <div class="row">
+                        <div class="col s12 m1">
+                            <h6>Horario: </h6>
+                        </div>
+                        <div class="col s12 m2">
+                            <h6 id="lblIdHorario"> </h6>
+                        </div>
+                        <div class="col s12 m1">
+                            <h6>Butacas: </h6>
+                        </div>
+                        <div class="col s12 m6">
+                            <h6 id="lblIdButacas"> </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <input style="display:none" id="datoBoton2" type="text">
+</body>
+
+<script>
+    $(document).ready(function () {
+        $('ul.tabs').tabs();
+    });
+
+    $(document).ready(function () {
+        $('.tooltipped').tooltip({ delay: 50 });
+    });
+
+    function funcionBotonesSala(IdBoton) {
+        var dato = document.getElementById(IdBoton);
+        if (dato.className == "btn tooltipped btn-floating btn-large grey") {
+            document.getElementById(IdBoton).className = "btn tooltipped btn-floating btn-large blue darken-4";
+
+        } else {
+            document.getElementById(IdBoton).className = "btn tooltipped btn-floating btn-large grey";
+        }
+    }
+
+    function SeleccionarHorario(IdBoton) {
+        debugger;
+        valorBoton = $("#" + IdBoton).val();
+        $("#datoBoton2").val(valorBoton);
+        var dato = document.getElementById('liButaca');
+        dato.className = "tab Active";
+        $('ul.tabs').tabs();
+        $('ul.tabs').tabs('select_tab', 'divButaca');
+    }
+
+    function Pagar() {
+        debugger;
+        var butacas;
+        var dato = document.getElementById('liPago');
+        dato.className = "tab Active";
+        $('ul.tabs').tabs();
+        $('ul.tabs').tabs('select_tab', 'divPago');
+        var horario = $("#datoBoton2").val();
+        document.getElementById("lblIdHorario").innerHTML = horario;
+
+        var butaca = "";
+        if (document.getElementById("btnA1").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "A1"; }
+            else {
+                butaca = butaca + "," + "A1";
+            }
+        }
+        if (document.getElementById("btnA2").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "A2"; }
+            else {butaca = butaca + "," + "A2";}
+        }
+        if (document.getElementById("btnA3").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "A3"; }
+            else {
+                butaca = butaca + "," + "A3";
+            }
+        }
+        if (document.getElementById("btnA4").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "A4"; }
+            else {
+                butaca = butaca + "," + "A4";
+            }
+        }
+        if (document.getElementById("btnA5").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "A5"; }
+            else {
+                butaca = butaca + "," + "A5";
+            }
+        }
+        if (document.getElementById("btnA6").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "A6"; }
+            else {
+                butaca = butaca + "," + "A6";
+            }
+        }
+        if (document.getElementById("btnA7").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "A7"; }
+            else {
+                butaca = butaca + "," + "A7";
+            }
+        }
+        if (document.getElementById("btnA8").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "A8"; }
+            else {
+                butaca = butaca + "," + "A8";
+            }
+        }
+        if (document.getElementById("btnA9").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "A9"; }
+            else {
+                butaca = butaca + "," + "A9";
+            }
+        }
+        if (document.getElementById("btnA10").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "A10"; }
+            else {
+                butaca = butaca + "," + "A10";
+            }
+        }
+        if (document.getElementById("btnB1").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "B1"; }
+            else {
+                butaca = butaca + "," + "B1";
+            }
+        }
+        if (document.getElementById("btnB2").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "B2"; }
+            else {
+                butaca = butaca + "," + "B2";
+            }
+        }
+        if (document.getElementById("btnB3").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "B3"; }
+            else {
+                butaca = butaca + "," + "B3";
+            }
+        }
+        if (document.getElementById("btnB4").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "B4"; }
+            else {
+                butaca = butaca + "," + "B4";
+            }
+        }
+        if (document.getElementById("btnB5").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "B5"; }
+            else {
+                butaca = butaca + "," + "B5";
+            }
+        }
+        if (document.getElementById("btnB6").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "B6"; }
+            else {
+                butaca = butaca + "," + "B6";
+            }
+        }
+        if (document.getElementById("btnB7").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "B7"; }
+            else {
+                butaca = butaca + "," + "B7";
+            }
+        }
+        if (document.getElementById("btnB8").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "B8"; }
+            else {
+                butaca = butaca + "," + "B8";
+            }
+        }
+        if (document.getElementById("btnC1").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "C1"; }
+            else {
+                butaca = butaca + "," + "C1";
+            }
+        }
+        if (document.getElementById("btnC2").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "C2"; }
+            else {
+                butaca = butaca + "," + "C2";
+            }
+        }
+        if (document.getElementById("btnC3").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "C3"; }
+            else {
+                butaca = butaca + "," + "C3";
+            }
+        }
+        if (document.getElementById("btnC4").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "C4"; }
+            else {
+                butaca = butaca + "," + "C4";
+            }
+        }
+        if (document.getElementById("btnC5").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "C5"; }
+            else {
+                butaca = butaca + "," + "C5";
+            }
+        }
+        if (document.getElementById("btnC6").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "C6"; }
+            else {
+                butaca = butaca + "," + "C6";
+            }
+        }
+        if (document.getElementById("btnC7").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "C7"; }
+            else {
+                butaca = butaca + "," + "C7";
+            }
+        }
+        if (document.getElementById("btnC8").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "C8"; }
+            else {
+                butaca = butaca + "," + "C8";
+            }
+        }
+        if (document.getElementById("btnC9").className == "btn tooltipped btn-floating btn-large blue darken-4") {
+            if (butaca == "") { butaca = "C9"; }
+            else {
+                butaca = butaca + "," + "C9";
+            }
+        }
+        document.getElementById("lblIdButacas").innerHTML = butaca;
+    }
+</script>

@@ -1,0 +1,205 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{71758AF8-6FB5-4ADF-A80A-FA9E921B6AA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{28C08C58-E3A3-4691-8D23-35DA190A4BFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{36A77541-4DFE-4ADA-9CDE-A9E814870070}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{AA79BCA5-96CC-4DC2-8C9D-933869550383}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{743BB74B-97EA-49D2-B2AF-BBC76ADA0EB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solution.NextFive.CineWeb", "Client\Solution.NextFive.CineWeb\Solution.NextFive.CineWeb.csproj", "{E83AE500-FB56-4541-8B81-18ACFE71DF3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Logic", "Business Logic", "{B111FFD7-89FD-4EB2-8780-9FF9A58B6129}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{E6A383A0-F0E9-43E0-911B-438432200867}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resource Access", "Resource Access", "{836E2C75-245B-49AC-A25C-FBF1CCEA2814}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service Interface", "Service Interface", "{A115C35F-12E6-4132-AE5E-89E596AD416D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextFive.Cine.BusinessLogic", "Source\Business Logic\NextFive.Cine.BusinessLogic\NextFive.Cine.BusinessLogic.csproj", "{89C7877C-56A2-4E90-8182-C25AAC21AFBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextFive.Cine.DataAccess", "Source\Resource Access\NextFive.Cine.DataAccess\NextFive.Cine.DataAccess.csproj", "{E2BF6A8D-AB6A-4FDA-B3D5-5A9BC7F591EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextFive.Cine.Entidades", "Source\Service Interface\NextFive.Cine.Entidades\NextFive.Cine.Entidades.csproj", "{8C0D9112-2024-408A-BA7D-F4BE45FF605C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextFive.Cine.ServiceContracts", "Source\Service Interface\NextFive.Cine.ServiceContracts\NextFive.Cine.ServiceContracts.csproj", "{1FA2EA89-6744-4866-BB69-CADA34A6677A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextFive.Cine.ServiceImplementation", "Source\Service Interface\NextFive.Cine.ServiceImplementation\NextFive.Cine.ServiceImplementation.csproj", "{B005DDA9-DAA6-405F-95F9-CF79B00DA90F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{AC01A6DF-B1F9-4FD6-9F0F-B53963F56EC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextFive.Cine.Proxies", "Common\NextFive.Cine.Proxies\NextFive.Cine.Proxies.csproj", "{01952621-A623-467B-A496-5497285785CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextFive.Cine.ServiceController", "Common\NextFive.Cine.ServiceController\NextFive.Cine.ServiceController.csproj", "{C102EA3D-BB8F-444A-B0DB-9BE1C8228BC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextFive.Cine.ServiceHost", "Host\NextFive.Cine.ServiceHost\NextFive.Cine.ServiceHost.csproj", "{BAC1084A-4A0F-4916-A21B-745AE81CC944}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextFive.Cine.DependencyResolver", "Source\Infraestructure\NextFive.Cine.DependencyResolver\NextFive.Cine.DependencyResolver.csproj", "{166D2C77-A834-46B4-85FE-224426AD5675}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextFive.Cine.Service.WebApi", "Host\NextFive.Cine.Service.WebApi\NextFive.Cine.Service.WebApi.csproj", "{58C31372-2FFF-4244-AF75-B6C1BA5EB270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextFive.Cine.Common", "Common\NextFive.Cine.Common\NextFive.Cine.Common.csproj", "{D0DF35BC-F4C6-43C0-A91D-E2583FA8B0C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextFive.Cine.ApiServiceController", "Common\NextFive.Cine.ApiServiceController\NextFive.Cine.ApiServiceController.csproj", "{CA01E0B8-B7F2-46C9-B5B4-1B018F9A110B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextFive.Cine.UnitTest", "Test\NextFive.Cine.UnitTest\NextFive.Cine.UnitTest.csproj", "{B5654046-2423-410E-8A11-9B2AF1141D75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E83AE500-FB56-4541-8B81-18ACFE71DF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83AE500-FB56-4541-8B81-18ACFE71DF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83AE500-FB56-4541-8B81-18ACFE71DF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83AE500-FB56-4541-8B81-18ACFE71DF3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89C7877C-56A2-4E90-8182-C25AAC21AFBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C7877C-56A2-4E90-8182-C25AAC21AFBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C7877C-56A2-4E90-8182-C25AAC21AFBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C7877C-56A2-4E90-8182-C25AAC21AFBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2BF6A8D-AB6A-4FDA-B3D5-5A9BC7F591EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2BF6A8D-AB6A-4FDA-B3D5-5A9BC7F591EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2BF6A8D-AB6A-4FDA-B3D5-5A9BC7F591EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2BF6A8D-AB6A-4FDA-B3D5-5A9BC7F591EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0D9112-2024-408A-BA7D-F4BE45FF605C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0D9112-2024-408A-BA7D-F4BE45FF605C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0D9112-2024-408A-BA7D-F4BE45FF605C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0D9112-2024-408A-BA7D-F4BE45FF605C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA2EA89-6744-4866-BB69-CADA34A6677A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA2EA89-6744-4866-BB69-CADA34A6677A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA2EA89-6744-4866-BB69-CADA34A6677A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA2EA89-6744-4866-BB69-CADA34A6677A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B005DDA9-DAA6-405F-95F9-CF79B00DA90F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B005DDA9-DAA6-405F-95F9-CF79B00DA90F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B005DDA9-DAA6-405F-95F9-CF79B00DA90F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B005DDA9-DAA6-405F-95F9-CF79B00DA90F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01952621-A623-467B-A496-5497285785CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01952621-A623-467B-A496-5497285785CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01952621-A623-467B-A496-5497285785CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01952621-A623-467B-A496-5497285785CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C102EA3D-BB8F-444A-B0DB-9BE1C8228BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C102EA3D-BB8F-444A-B0DB-9BE1C8228BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C102EA3D-BB8F-444A-B0DB-9BE1C8228BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C102EA3D-BB8F-444A-B0DB-9BE1C8228BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC1084A-4A0F-4916-A21B-745AE81CC944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC1084A-4A0F-4916-A21B-745AE81CC944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC1084A-4A0F-4916-A21B-745AE81CC944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC1084A-4A0F-4916-A21B-745AE81CC944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166D2C77-A834-46B4-85FE-224426AD5675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166D2C77-A834-46B4-85FE-224426AD5675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166D2C77-A834-46B4-85FE-224426AD5675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166D2C77-A834-46B4-85FE-224426AD5675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58C31372-2FFF-4244-AF75-B6C1BA5EB270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58C31372-2FFF-4244-AF75-B6C1BA5EB270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58C31372-2FFF-4244-AF75-B6C1BA5EB270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58C31372-2FFF-4244-AF75-B6C1BA5EB270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0DF35BC-F4C6-43C0-A91D-E2583FA8B0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DF35BC-F4C6-43C0-A91D-E2583FA8B0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0DF35BC-F4C6-43C0-A91D-E2583FA8B0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0DF35BC-F4C6-43C0-A91D-E2583FA8B0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA01E0B8-B7F2-46C9-B5B4-1B018F9A110B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA01E0B8-B7F2-46C9-B5B4-1B018F9A110B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA01E0B8-B7F2-46C9-B5B4-1B018F9A110B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA01E0B8-B7F2-46C9-B5B4-1B018F9A110B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5654046-2423-410E-8A11-9B2AF1141D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5654046-2423-410E-8A11-9B2AF1141D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5654046-2423-410E-8A11-9B2AF1141D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5654046-2423-410E-8A11-9B2AF1141D75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E83AE500-FB56-4541-8B81-18ACFE71DF3E} = {71758AF8-6FB5-4ADF-A80A-FA9E921B6AA9}
+		{B111FFD7-89FD-4EB2-8780-9FF9A58B6129} = {AA79BCA5-96CC-4DC2-8C9D-933869550383}
+		{E6A383A0-F0E9-43E0-911B-438432200867} = {AA79BCA5-96CC-4DC2-8C9D-933869550383}
+		{836E2C75-245B-49AC-A25C-FBF1CCEA2814} = {AA79BCA5-96CC-4DC2-8C9D-933869550383}
+		{A115C35F-12E6-4132-AE5E-89E596AD416D} = {AA79BCA5-96CC-4DC2-8C9D-933869550383}
+		{89C7877C-56A2-4E90-8182-C25AAC21AFBA} = {B111FFD7-89FD-4EB2-8780-9FF9A58B6129}
+		{E2BF6A8D-AB6A-4FDA-B3D5-5A9BC7F591EB} = {836E2C75-245B-49AC-A25C-FBF1CCEA2814}
+		{8C0D9112-2024-408A-BA7D-F4BE45FF605C} = {A115C35F-12E6-4132-AE5E-89E596AD416D}
+		{1FA2EA89-6744-4866-BB69-CADA34A6677A} = {A115C35F-12E6-4132-AE5E-89E596AD416D}
+		{B005DDA9-DAA6-405F-95F9-CF79B00DA90F} = {A115C35F-12E6-4132-AE5E-89E596AD416D}
+		{01952621-A623-467B-A496-5497285785CC} = {AC01A6DF-B1F9-4FD6-9F0F-B53963F56EC9}
+		{C102EA3D-BB8F-444A-B0DB-9BE1C8228BC9} = {AC01A6DF-B1F9-4FD6-9F0F-B53963F56EC9}
+		{BAC1084A-4A0F-4916-A21B-745AE81CC944} = {28C08C58-E3A3-4691-8D23-35DA190A4BFC}
+		{166D2C77-A834-46B4-85FE-224426AD5675} = {E6A383A0-F0E9-43E0-911B-438432200867}
+		{58C31372-2FFF-4244-AF75-B6C1BA5EB270} = {28C08C58-E3A3-4691-8D23-35DA190A4BFC}
+		{D0DF35BC-F4C6-43C0-A91D-E2583FA8B0C9} = {AC01A6DF-B1F9-4FD6-9F0F-B53963F56EC9}
+		{CA01E0B8-B7F2-46C9-B5B4-1B018F9A110B} = {AC01A6DF-B1F9-4FD6-9F0F-B53963F56EC9}
+		{B5654046-2423-410E-8A11-9B2AF1141D75} = {743BB74B-97EA-49D2-B2AF-BBC76ADA0EB0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Data.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Logging.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.ExceptionHandling.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.ExceptionHandling.WCF.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.ExceptionHandling.Logging.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Logging.Database.5.0.505.0\lib\NET35
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 15
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://diehobueno.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Client\\Solution.NextFive.CineWeb\\Solution.NextFive.CineWeb.csproj
+		SccProjectTopLevelParentUniqueName1 = Solution.NextFive.CineWeb.sln
+		SccProjectName1 = Client/Solution.NextFive.CineWeb
+		SccLocalPath1 = Client\\Solution.NextFive.CineWeb
+		SccProjectUniqueName2 = Source\\Business\u0020Logic\\NextFive.Cine.BusinessLogic\\NextFive.Cine.BusinessLogic.csproj
+		SccProjectTopLevelParentUniqueName2 = Solution.NextFive.CineWeb.sln
+		SccProjectName2 = Source/Business\u0020Logic/NextFive.Cine.BusinessLogic
+		SccLocalPath2 = Source\\Business\u0020Logic\\NextFive.Cine.BusinessLogic
+		SccProjectUniqueName3 = Source\\Resource\u0020Access\\NextFive.Cine.DataAccess\\NextFive.Cine.DataAccess.csproj
+		SccProjectTopLevelParentUniqueName3 = Solution.NextFive.CineWeb.sln
+		SccProjectName3 = Source/Resource\u0020Access/NextFive.Cine.DataAccess
+		SccLocalPath3 = Source\\Resource\u0020Access\\NextFive.Cine.DataAccess
+		SccProjectUniqueName4 = Source\\Service\u0020Interface\\NextFive.Cine.Entidades\\NextFive.Cine.Entidades.csproj
+		SccProjectTopLevelParentUniqueName4 = Solution.NextFive.CineWeb.sln
+		SccProjectName4 = Source/Service\u0020Interface/NextFive.Cine.Entidades
+		SccLocalPath4 = Source\\Service\u0020Interface\\NextFive.Cine.Entidades
+		SccProjectUniqueName5 = Source\\Service\u0020Interface\\NextFive.Cine.ServiceContracts\\NextFive.Cine.ServiceContracts.csproj
+		SccProjectTopLevelParentUniqueName5 = Solution.NextFive.CineWeb.sln
+		SccProjectName5 = Source/Service\u0020Interface/NextFive.Cine.ServiceContracts
+		SccLocalPath5 = Source\\Service\u0020Interface\\NextFive.Cine.ServiceContracts
+		SccProjectUniqueName6 = Source\\Service\u0020Interface\\NextFive.Cine.ServiceImplementation\\NextFive.Cine.ServiceImplementation.csproj
+		SccProjectTopLevelParentUniqueName6 = Solution.NextFive.CineWeb.sln
+		SccProjectName6 = Source/Service\u0020Interface/NextFive.Cine.ServiceImplementation
+		SccLocalPath6 = Source\\Service\u0020Interface\\NextFive.Cine.ServiceImplementation
+		SccProjectUniqueName7 = Common\\NextFive.Cine.Proxies\\NextFive.Cine.Proxies.csproj
+		SccProjectTopLevelParentUniqueName7 = Solution.NextFive.CineWeb.sln
+		SccProjectName7 = Common/NextFive.Cine.Proxies
+		SccLocalPath7 = Common\\NextFive.Cine.Proxies
+		SccProjectUniqueName8 = Common\\NextFive.Cine.ServiceController\\NextFive.Cine.ServiceController.csproj
+		SccProjectTopLevelParentUniqueName8 = Solution.NextFive.CineWeb.sln
+		SccProjectName8 = Common/NextFive.Cine.ServiceController
+		SccLocalPath8 = Common\\NextFive.Cine.ServiceController
+		SccProjectUniqueName9 = Host\\NextFive.Cine.ServiceHost\\NextFive.Cine.ServiceHost.csproj
+		SccProjectTopLevelParentUniqueName9 = Solution.NextFive.CineWeb.sln
+		SccProjectName9 = Host/NextFive.Cine.ServiceHost
+		SccLocalPath9 = Host\\NextFive.Cine.ServiceHost
+		SccProjectUniqueName10 = Source\\Infraestructure\\NextFive.Cine.DependencyResolver\\NextFive.Cine.DependencyResolver.csproj
+		SccProjectTopLevelParentUniqueName10 = Solution.NextFive.CineWeb.sln
+		SccProjectName10 = Source/Infraestructure/NextFive.Cine.DependencyResolver
+		SccLocalPath10 = Source\\Infraestructure\\NextFive.Cine.DependencyResolver
+		SccProjectUniqueName11 = Host\\NextFive.Cine.Service.WebApi\\NextFive.Cine.Service.WebApi.csproj
+		SccProjectTopLevelParentUniqueName11 = Solution.NextFive.CineWeb.sln
+		SccProjectName11 = Host/NextFive.Cine.Service.WebApi
+		SccLocalPath11 = Host\\NextFive.Cine.Service.WebApi
+		SccProjectUniqueName12 = Common\\NextFive.Cine.Common\\NextFive.Cine.Common.csproj
+		SccProjectTopLevelParentUniqueName12 = Solution.NextFive.CineWeb.sln
+		SccProjectName12 = Common/NextFive.Cine.Common
+		SccLocalPath12 = Common\\NextFive.Cine.Common
+		SccProjectUniqueName13 = Common\\NextFive.Cine.ApiServiceController\\NextFive.Cine.ApiServiceController.csproj
+		SccProjectTopLevelParentUniqueName13 = Solution.NextFive.CineWeb.sln
+		SccProjectName13 = Common/NextFive.Cine.ApiServiceController
+		SccLocalPath13 = Common\\NextFive.Cine.ApiServiceController
+		SccProjectUniqueName14 = Test\\NextFive.Cine.UnitTest\\NextFive.Cine.UnitTest.csproj
+		SccProjectTopLevelParentUniqueName14 = Solution.NextFive.CineWeb.sln
+		SccProjectName14 = Test/NextFive.Cine.UnitTest
+		SccLocalPath14 = Test\\NextFive.Cine.UnitTest
+	EndGlobalSection
+EndGlobal

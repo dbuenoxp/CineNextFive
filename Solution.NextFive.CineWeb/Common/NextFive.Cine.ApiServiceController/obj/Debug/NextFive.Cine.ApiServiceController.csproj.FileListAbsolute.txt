@@ -1,0 +1,13 @@
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ApiServiceController\bin\Debug\NextFive.Cine.ApiServiceController.dll
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ApiServiceController\bin\Debug\NextFive.Cine.ApiServiceController.pdb
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ApiServiceController\bin\Debug\NextFive.Cine.Common.dll
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ApiServiceController\bin\Debug\NextFive.Cine.Entidades.dll
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ApiServiceController\bin\Debug\System.Net.Http.Formatting.dll
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ApiServiceController\bin\Debug\Newtonsoft.Json.dll
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ApiServiceController\bin\Debug\NextFive.Cine.Entidades.pdb
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ApiServiceController\bin\Debug\NextFive.Cine.Common.pdb
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ApiServiceController\bin\Debug\System.Net.Http.Formatting.xml
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ApiServiceController\obj\Debug\NextFive.Cine.ApiServiceController.csprojResolveAssemblyReference.cache
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ApiServiceController\obj\Debug\NextFive.Cine.ApiServiceController.dll
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ApiServiceController\obj\Debug\NextFive.Cine.ApiServiceController.pdb
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ApiServiceController\bin\Debug\Newtonsoft.Json.xml

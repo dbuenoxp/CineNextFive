@@ -1,0 +1,4 @@
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.Proxies\bin\Release\NextFive.Cine.Proxies.dll
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.Proxies\bin\Release\NextFive.Cine.Proxies.pdb
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.Proxies\obj\Release\NextFive.Cine.Proxies.dll
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.Proxies\obj\Release\NextFive.Cine.Proxies.pdb

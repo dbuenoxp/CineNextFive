@@ -1,0 +1,11 @@
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ServiceController\bin\Debug\NextFive.Cine.ServiceController.dll
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ServiceController\bin\Debug\NextFive.Cine.ServiceController.pdb
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ServiceController\bin\Debug\NextFive.Cine.Entidades.dll
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ServiceController\bin\Debug\NextFive.Cine.Proxies.dll
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ServiceController\bin\Debug\NextFive.Cine.ServiceContracts.dll
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ServiceController\bin\Debug\NextFive.Cine.Entidades.pdb
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ServiceController\bin\Debug\NextFive.Cine.ServiceContracts.pdb
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ServiceController\bin\Debug\NextFive.Cine.Proxies.pdb
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ServiceController\obj\Debug\NextFive.Cine.ServiceController.csprojResolveAssemblyReference.cache
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ServiceController\obj\Debug\NextFive.Cine.ServiceController.dll
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Common\NextFive.Cine.ServiceController\obj\Debug\NextFive.Cine.ServiceController.pdb

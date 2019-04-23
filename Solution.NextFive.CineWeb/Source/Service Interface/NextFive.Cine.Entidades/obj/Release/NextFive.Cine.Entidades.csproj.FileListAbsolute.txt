@@ -1,0 +1,4 @@
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Source\Service Interface\NextFive.Cine.Entidades\bin\Release\NextFive.Cine.Entidades.dll
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Source\Service Interface\NextFive.Cine.Entidades\bin\Release\NextFive.Cine.Entidades.pdb
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Source\Service Interface\NextFive.Cine.Entidades\obj\Release\NextFive.Cine.Entidades.dll
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Source\Service Interface\NextFive.Cine.Entidades\obj\Release\NextFive.Cine.Entidades.pdb

@@ -1,0 +1,172 @@
+﻿@{
+    ViewBag.Title = "Votaciones";
+}
+
+<h2>Votaciones</h2>
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <link href="~/Content/materialize.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="~/Scripts/jquery-3.2.1.min.js"></script>
+    <script src="~/Scripts/materialize.min.js"></script>
+    
+</head>
+<body>
+    <div class="row">
+        <div class="col s8 m6">
+            <div class="card Medium">
+                <div class="card-image Medium">
+                    <img src="../Content/img/Aquaman.jpg">
+                    <a  class="btn btn-floating pulse red waves-red modal-trigger" id="Voto1" onclick="abrirpopup(id);" style="float:right"><i class="material-icons center">favorite</i></a>
+                </div>
+                <div class="card-content blue-grey lighten-4">
+                    <h5 id="Pelicula1">Aquaman</h5>
+                    <p>Tras los acontecimientos de la Liga de la Justicia, Arthur Curry, 
+                    el renuente gobernante del reino submarino de Atlantis, se ve atrapado en una batalla 
+                    entre habitantes de la superficie, que amenazan a sus océanos, y su propia gente, 
+                    que están dispuestos a atacar e invadir la superficie.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s8 m6">
+            <div class="card Medium">
+                <div class="card-image Medium">
+                    <img src="../Content/img/La_Monja.jpg">
+                    <a class="btn btn-floating pulse red waves-red"  id="Voto2" onclick="abrirpopup(id);" style="float:right"><i class="material-icons center">favorite</i></a>
+                </div>
+                <div class="card-content blue-grey lighten-4">
+                    <h5 id="Pelicula2">La Monja</h5>
+                    <p>Una monja se suicida en una abadía rumana y el Vaticano envía a un sacerdote y 
+                    una novicia a investigar lo sucedido. Lo que ambos encuentran allá es un secreto 
+                    perverso que los enfrentará cara a cara con el mal en su esencia más pura.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s8 m6">
+            <div class="card">
+                <div class="card-image">
+                    <img src="../Content/img/Infinity_Wars.jpg">
+                    <a class="btn btn-floating pulse red waves-red" style="float:right" id="Voto3" onclick="abrirpopup(id);"><i class="material-icons center">favorite</i></a>
+                </div>
+                <div class="card-content blue-grey lighten-4">
+                    <h5 id="Pelicula3">Avengers Infinity War</h5>
+                    <p>A medida que los Vengadores y sus aliados han seguido protegiendo al mundo de amenazas 
+                    demasiado grandes para que cualquier otro héroe las pueda manejar, un nuevo peligro surge 
+                    de las sombras cósmicas: Thanos. Un despiadado titán intergaláctico, cuyo objetivo es 
+                    conseguir con las seis Gemas del Infinito, artefactos de poder inimaginable, y usarlas 
+                    para infligir su torcida voluntad en toda la realidad. Todo por lo que han luchado los Vengadores
+                     ha conducido a este momento, el destino de la Tierra y la existencia misma nunca han sido más 
+                    inciertos por Thanos y su pandilla.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s8 m6">
+            <div class="card">
+                <div class="card-image">
+                    <img src="../Content/img/Nace_Una_Estrella2.jpg">
+                    <a class="btn btn-floating pulse red waves-red" style="float:right" id="Voto4" onclick="abrirpopup(id);"><i class="material-icons center">favorite</i></a>
+                </div>
+                <div class="card-content blue-grey lighten-4">
+                    <h5 id="Pelicula4">Nace una estrella</h5>
+                    <p>Relata la historia de Ally, una joven actriz y cantante con talento que llega a la 
+                    Hollywood dispuesta a triunfar y a cumplir sus sueños. Una vez instalada en la ciudad de 
+                    la fama, conocerá a Jackson Maine, un actor de renombre que 
+                    tuvo su momento de gloria en el pasado. Sin embargo, últimamente, su carrera no está pasando 
+                    por su mejor época. Alcohólico y arruinado, encontrará en Ally una razón para seguir adelante 
+                    y le ayudará en su búsqueda del éxito. </p>
+                </div>
+            </div>
+        </div>
+
+       
+        <div id="modal1" class="modal modal-fixed-footer" style="height:200px">
+            <div class="modal-content">
+                <h5>Comentario</h5>
+                <div class="row">
+                    <form class="col s8">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Escribir comentario</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a class="waves-light btn red" id="Boton1" onclick="votacion();"><i class="material-icons right">favorite</i>Votar</a>
+            </div>
+        </div>
+
+        <input style="display:none" id="dato" type="text">
+
+        @*<div class="col s12 m6">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="../Content/img/La_Monja.jpg">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+        </div>*@
+
+    </div>
+    
+</body>
+
+    
+
+<script>
+    $(document).ready(function () {
+        // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+        $('.modal').modal();
+    });
+
+    function abrirpopup(id)
+    {
+        $("#dato").val(id);
+        $("#textarea1").val('');
+        $('.modal').modal('open');
+    }
+
+    function votacion() {
+        debugger;
+        var dato = $("#dato").val();
+        var pelicula = "";
+        if (dato == "Voto1") {
+            pelicula = document.getElementById("Pelicula1").innerHTML;
+
+        }
+        else if (dato == "Voto2") { pelicula = document.getElementById("Pelicula2").innerHTML; }
+        else if (dato == "Voto3") { pelicula = document.getElementById("Pelicula3").innerHTML; }
+        else if (dato == "Voto4") { pelicula = document.getElementById("Pelicula4").innerHTML; }
+        var comentario = $("#textarea1").val();
+        $.ajax({
+
+            url: '@Url.Action("setVotaciones", "Cine")',
+            data: { Pelicula: pelicula, Comentario: comentario },
+            type: "post",
+            cache: false,
+            success: function (data, texStatus, jqXHR) {
+
+                Materialize.toast('Usted acaba de Votar por: ' + pelicula, 4000, 'rounded');
+            },
+            error: function (a, b, c) {
+            },
+            complete: function () {
+                $('.modal').modal('close');
+            }
+        });
+    }
+
+
+
+</script>

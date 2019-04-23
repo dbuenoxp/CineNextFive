@@ -1,0 +1,2 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" 
+    Service="NextFive.Cine.ServiceImplementation.Cine.CineService" Factory="NextFive.Cine.ServiceHost.Factory.UnityServiceHostFactory"%>

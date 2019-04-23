@@ -1,0 +1,5 @@
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Source\Service Interface\NextFive.Cine.Entidades\bin\Debug\NextFive.Cine.Entidades.dll
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Source\Service Interface\NextFive.Cine.Entidades\bin\Debug\NextFive.Cine.Entidades.pdb
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Source\Service Interface\NextFive.Cine.Entidades\obj\Debug\NextFive.Cine.Entidades.dll
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Source\Service Interface\NextFive.Cine.Entidades\obj\Debug\NextFive.Cine.Entidades.pdb
+F:\TFS_UPC_CineWeb\UPC_CineWeb\Solution.NextFive.CineWeb\Source\Service Interface\NextFive.Cine.Entidades\obj\Debug\NextFive.Cine.Entidades.csprojResolveAssemblyReference.cache
